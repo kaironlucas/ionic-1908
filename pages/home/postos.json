@@ -1,0 +1,29 @@
+{
+  "postos": [
+    {
+      "id": "1",
+      "nome": "Posto João Marcelo",
+      "bairro": "Centro",
+      "nota": "2.9"
+    },
+    {
+      "id": "2",
+      "nome": "Centro de Saúde João 23",
+      "bairro": "Bonsucesso",
+      "nota": "5.0"
+    },
+    {
+      "id": "3",
+      "nome": "Posto de Saúde Ocelo Pinheiro",
+      "bairro": "Itaoca",
+      "nota": "1.2"
+    },
+    {
+      "id": "4",
+      "nome": "Posto de Saúde Irmã Hercilia Aragão",
+      "bairro": "São João do Tauape",
+      "nota": "3.7"
+    }
+  ]
+}
+
