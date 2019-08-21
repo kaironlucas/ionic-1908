@@ -5,6 +5,14 @@
 </ion-header>
 
 <ion-content padding>
+    <h2>Cadastro de novos Postos</h2>
+    <ion-input placeholder="Nome" [(ngModel)]='nome' name="nome"></ion-input>
+    <ion-input placeholder="Bairro" [(ngModel)]= 'bairro' name="Bairro"></ion-input>
+    <ion-input placeholder="Nota" [(ngModel)]= 'nota' name="Nota"></ion-input>
+    <button ion-button type="submit" (click)="env()">Enviar</button>
+
+
+
   <h1>Postos</h1>
   <ion-list>
     <ion-item *ngFor="let p of postos">
@@ -12,11 +20,6 @@
       <h4>{{p.bairro}}</h4>
       <h4>{{p.nota}}</h4>
     </ion-item>
-    <h2>Cadastro de novos Postos</h2>
-    <ion-input placeholder="Nome" name="Nome"></ion-input>
-    <ion-input placeholder="Bairro" name="Bairro"></ion-input>
-    <ion-input placeholder="Nota" name="Nota"></ion-input>
-    <button ion-button type="submit">Enviar</button>
   </ion-list>
 </ion-content>
 
