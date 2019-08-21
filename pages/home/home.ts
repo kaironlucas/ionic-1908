@@ -24,7 +24,7 @@ nota:number;
         bairro:string,
         nota:number
       };
-    postos.push(novo);
+    this.postos.push(novo);
 
   }
 
