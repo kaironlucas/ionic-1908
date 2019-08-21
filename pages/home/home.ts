@@ -19,11 +19,11 @@ nota:number;
   }
 
   env(){
-      var novo = new postos{
+      var novo = new Array,
         nome:string,
         bairro:string,
-        nota:number
-      };
+        nota:number;
+      
     this.postos.push(novo);
 
   }
