@@ -22,8 +22,8 @@ nota:number;
       var novo = new postos{
         nome:string,
         bairro:string,
-        nota:number,
-      }
+        nota:number
+      };
     postos.push(novo);
 
   }
